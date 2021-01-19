@@ -25,5 +25,5 @@ print("The generated prime numbers in given interval are:", prime)
 # plotting prime values with their discovering time
 plt.plot(timeTracker, prime, color='tab:red')
 plt.ylabel('Prime Number')
-plt.xlabel('Time Taken')
+plt.xlabel('Time Taken Seconds')
 plt.show()
