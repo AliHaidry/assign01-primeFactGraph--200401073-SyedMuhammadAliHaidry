@@ -32,6 +32,6 @@ print("The generated prime numbers in given interval are:", prime)
 # ploting the prime values and according to their discovering time
 plt.plot(tim,prime)
 plt.plot(tim,prime)
-plt.ylabel('Prime')
-plt.xlabel('Time')
+plt.ylabel('Prime Number')
+plt.xlabel('Time Taken')
 plt.show()
