@@ -23,7 +23,7 @@ for priNum in range(LowerBound, UpperBound + 1):
 print("The generated prime numbers in given interval are:", prime)
 
 # plotting prime values with their discovering time
-plt.plot(timeTracker, prime, color='tab:red')
-plt.ylabel('Prime Number')
-plt.xlabel('Time Taken Seconds')
+plt.plot(prime, timeTracker, color='tab:red')
+plt.ylabel('Time Taken Seconds')
+plt.xlabel('Prime Number')
 plt.show()
